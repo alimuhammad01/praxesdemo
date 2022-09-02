@@ -1,0 +1,43 @@
+
+.listing{
+  padding: 50px 0;
+}
+.cars{
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  margin-bottom: 40px;
+}
+.title h2{
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 48px;
+}
+.select-menu select{
+  padding: 10px;
+  background-color: transparent;
+  border:1px solid gray;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 -15px;
+}
+.card-col {
+  max-width: 33.333%;
+  width: 100%;
+  padding:  15px;
+}
+.card img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.card:hover img {
+  transform: scale3d(1.1,1.1,1);
+}

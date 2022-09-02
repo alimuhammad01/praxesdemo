@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+.header span{
+  background-color: #fff;
+  font-family:'DynaPuff', cursive;
+  font-weight: 500;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  object-fit:contain;
+  box-shadow: 0 2px 7px 0 rgb(196 196 196 / 34%);
+}
